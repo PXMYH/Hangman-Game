@@ -41,7 +41,7 @@ public class Hangman extends ConsoleProgram {
     	while (number_of_chances > 0 && isResMatch() != true) {
     		println("The word now looks like this: ");
     		println("You have " + number_of_chances + " guesses left.");
-    		print("Your guess: ");
+    		//print("Your guess: ");
     		String user_letter = readLine ("Your guess: ");
     	}
     	

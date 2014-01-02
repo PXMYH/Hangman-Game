@@ -29,7 +29,7 @@ public class Hangman extends ConsoleProgram {
     	
     	// get a guessing word from the dictionary
     	int word_index = (int)rgen.nextDouble(0, 9);
-    	String guessing_word = hangmanlecxicon.getWord(word_index);
+    	String gues_word = hangmanlecxicon.getWord(word_index);
     	
     	// constant check user guessing results and chances left 
     	while (number_of_chances > 0 && isResMatch() != true) {

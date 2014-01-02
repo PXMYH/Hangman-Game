@@ -15,6 +15,8 @@ public class Hangman extends ConsoleProgram {
 
 	private HangmanLexicon hangmanlecxicon;
 	
+	private RandomGenerator rgen = RandomGenerator.getInstance();
+	
 	private static final int NTURNS = 8;
 	
     public void run() {
@@ -26,7 +28,8 @@ public class Hangman extends ConsoleProgram {
     	println("Welcome to Hangman!");
     	
     	// get a guessing word from the dictionary
-    	hangmanlecxicon;
+    	int 
+    	hangmanlecxicon.getWord(index);
     	
     	// constant check user guessing results and chances left 
     	while (number_of_chances > 0 && isResMatch() != true) {

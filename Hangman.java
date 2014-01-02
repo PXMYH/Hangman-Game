@@ -32,7 +32,7 @@ public class Hangman extends ConsoleProgram {
     	println("word index is " + word_index);
     	String guess_word;
     	guess_word = hangmanlecxicon.getWord(word_index);
-    	println("the guess word is " + hangmanlecxicon.getWord(word_index););
+    	println("the guess word is " + hangmanlecxicon.getWord(word_index));
     	
     	// constant check user guessing results and chances left 
     	while (number_of_chances > 0 && isResMatch() != true) {

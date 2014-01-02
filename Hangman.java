@@ -30,7 +30,7 @@ public class Hangman extends ConsoleProgram {
     		
     	}
     	
-    	private void booleanisResMatch () {
+    	private void boolean isResMatch () {
     		
     	}
     	

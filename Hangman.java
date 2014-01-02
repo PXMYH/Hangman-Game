@@ -42,7 +42,7 @@ public class Hangman extends ConsoleProgram {
     		println("The word now looks like this: ");
     		println("You have " + number_of_chances + " guesses left.");
     		print("Your guess: ");
-    		String user_letter = readLine ();
+    		String user_letter = readLine ("Your guess: ");
     	}
     	
     	

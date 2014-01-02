@@ -13,7 +13,7 @@ import java.awt.*;
 
 public class Hangman extends ConsoleProgram {
 
-	private HangmanLexicon;
+	private HangmanLexicon hangman;
 	
     public void run() {
 		

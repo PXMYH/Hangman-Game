@@ -43,6 +43,7 @@ public class Hangman extends ConsoleProgram {
     		println("You have " + number_of_chances + " guesses left.");
     		//print("Your guess: ");
     		String user_letter = readLine ("Your guess: ");
+    		number_of_chances --;
     	}
     	
     	

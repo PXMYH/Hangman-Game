@@ -15,6 +15,8 @@ public class Hangman extends ConsoleProgram {
 
 	private HangmanLexicon hangmanlecxicon;
 	
+	private static final int NTURNS = 8;
+	
     public void run() {
 		
     	// Display initial welcome message

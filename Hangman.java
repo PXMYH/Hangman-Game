@@ -13,8 +13,13 @@ import java.awt.*;
 
 public class Hangman extends ConsoleProgram {
 
+	private HangmanLexicon;
+	
     public void run() {
-		/* You fill this in */
+		
+    	// Display initial welcome message
+    	println("Welcome to Hangman!");
+    	
 	}
 
 }

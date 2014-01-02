@@ -25,6 +25,9 @@ public class Hangman extends ConsoleProgram {
     	// Display initial welcome message
     	println("Welcome to Hangman!");
     	
+    	// get a guessing word from the dictionary
+    	hangmanlecxicon;
+    	
     	// constant check user guessing results and chances left 
     	while (number_of_chances > 0 && isResMatch() != true) {
     		

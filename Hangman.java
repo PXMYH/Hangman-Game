@@ -32,7 +32,8 @@ public class Hangman extends ConsoleProgram {
     	println("word index is " + word_index);
     	String guess_word = "hello";
     	hangmanlecxicon = new HangmanLexicon();
-    	//guess_word = hangmanlecxicon.getWord(word_index);
+    	
+    	guess_word = hangmanlecxicon.getWord(word_index);
     	//guess_word = hangmanlecxicon.getWord(2);
     	println("the guess word is " + guess_word);
     	

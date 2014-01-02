@@ -36,6 +36,8 @@ public class Hangman extends ConsoleProgram {
     		
     	}
     	
+    	
+    	// display final message
     	if (number_of_chances > 0) {
     		println("You guessed the word: " + guess_word);
     		println("You win.");

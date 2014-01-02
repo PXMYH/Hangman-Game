@@ -26,7 +26,7 @@ public class Hangman extends ConsoleProgram {
     	println("Welcome to Hangman!");
     	
     	// constant check user guessing results and chances left 
-    	while (number_of_chances > 0 && ) {
+    	while (number_of_chances > 0 && isResMatch()) {
     		
     	}
     	

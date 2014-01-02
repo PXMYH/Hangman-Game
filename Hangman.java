@@ -36,6 +36,7 @@ public class Hangman extends ConsoleProgram {
     		
     	}
     	
+    	if (number_of_chances > 0)
     	
 	}
     

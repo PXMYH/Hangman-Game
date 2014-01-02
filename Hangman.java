@@ -34,6 +34,7 @@ public class Hangman extends ConsoleProgram {
 	}
     
 	private boolean isResMatch () {
+		
 		return false;
 	}
 

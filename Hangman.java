@@ -20,6 +20,7 @@ public class Hangman extends ConsoleProgram {
     public void run() {
     	
     	// variable definition
+    	int number_of_chances = NTURNS;
 		
     	// Display initial welcome message
     	println("Welcome to Hangman!");

@@ -18,6 +18,8 @@ public class Hangman extends ConsoleProgram {
 	private static final int NTURNS = 8;
 	
     public void run() {
+    	
+    	// variable definition
 		
     	// Display initial welcome message
     	println("Welcome to Hangman!");

@@ -114,6 +114,7 @@ public class Hangman extends ConsoleProgram {
 	private void flipLetter (String letter) {
 		char ch = letter.charAt(0);
 		String sub_before, sub_after;
+		int word_length = user_word.length();
 		
 		println("user word length is " + user_word.length());
 		

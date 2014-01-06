@@ -115,7 +115,7 @@ public class Hangman extends ConsoleProgram {
 		char ch = letter.charAt(0);
 		String sub_before, sub_after;
 		
-		for (int index = 0; index < guess_word.length(); index ++) {
+		for (int index = 0; index < user_word.length(); index ++) {
 			// find match in specific position
 			if (guess_word.charAt(index) == ch) {
 				if (index != 0 && index != user_word.length()) { // the letter is not the first one nor the last one

@@ -73,6 +73,11 @@ public class Hangman extends ConsoleProgram {
     	
 	}
     
+    // initalize word 
+    private String initWord () {
+    	
+    }
+    
     
     // check if user guessed word matches the original word
 	private boolean isResMatch () {

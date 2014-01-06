@@ -60,6 +60,7 @@ public class Hangman extends ConsoleProgram {
     			user_letter = readLine("Your guess: ");
     		}
     		
+    		user_letter_ch = user_letter.charAt(0);
     		if (user_letter)
     		
     		user_letter = convertCase(user_letter);

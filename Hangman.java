@@ -98,8 +98,6 @@ public class Hangman extends ConsoleProgram {
 	// check if user guessed letter exist in the original guessing word
 	private boolean isLetterExist (String letter) {
 		
-		//CharSequence ch = letter.charAt(0);
-		
 		if (letter.contains(letter))
 			return true;
 		else 

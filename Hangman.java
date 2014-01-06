@@ -61,7 +61,9 @@ public class Hangman extends ConsoleProgram {
     		}
     		
     		user_letter_ch = user_letter.charAt(0);
-    		if (user_letter_ch < 'A' || (user_letter_ch > 'Z' && user_letter_ch < 'a') || user_letter_ch > 'z' )
+    		if (user_letter_ch < 'A' || (user_letter_ch > 'Z' && user_letter_ch < 'a') || user_letter_ch > 'z' ) {
+    			
+    		}
     		
     		user_letter = convertCase(user_letter);
     		println("letter is converted to : " + user_letter);

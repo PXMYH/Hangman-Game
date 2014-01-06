@@ -124,7 +124,7 @@ public class Hangman extends ConsoleProgram {
 				if (index != 0 && index != user_word.length()) { // the letter is not the first one nor the last one
 					println("index is neither first nor last");
 					sub_before = user_word.substring(0, index-1);
-					sub_after = user_word.substring(index+1, user_word.length());
+					sub_after = user_word.substring(index+1, word_length-1);
 				} else if (index == 0) { // the letter is the first letter in the word
 					println("index is " + index);
 					sub_before = "";

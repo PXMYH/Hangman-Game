@@ -90,7 +90,8 @@ public class Hangman extends ConsoleProgram {
 	private boolean isLetterExist (String letter) {
 		if ()
 			return true;
-		return 
+		else 
+			return false; 
 	}
 
 }

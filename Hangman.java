@@ -56,10 +56,9 @@ public class Hangman extends ConsoleProgram {
 	    		// ensure letter user typed in satisfies requirements
 	    		// 1. string length must be 1
 	    		// 2. user typed character must be a-z or A-Z, no digits or other strange characters allowed
-	    		if (user_letter.length() != 1) {
+	    		if (user_letter.length() != 1) 
 	    			println("Please type in a single character!");
-	    			break;
-	    		}
+	    			
 	    		
 	    		user_letter_ch = user_letter.charAt(0);
 	    		if (user_letter_ch < 'A' || (user_letter_ch > 'Z' && user_letter_ch < 'a') || user_letter_ch > 'z' ) {

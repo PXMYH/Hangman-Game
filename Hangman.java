@@ -105,7 +105,7 @@ public class Hangman extends ConsoleProgram {
 	// flip the all letters user guessed correctly
 	private void flipLetter(String letter) {
 		String tmp_word = guess_word, another;
-		tmp_word.replaceAll("E", "*");
+		another = tmp_word.replaceAll("E", "*");
 		println("Flip word now is " + tmp_word);
 		 
 	}

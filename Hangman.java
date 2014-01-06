@@ -77,7 +77,9 @@ public class Hangman extends ConsoleProgram {
     // check if user guessed word matches the original word
 	private boolean isResMatch () {
 		if (user_word.equals() )
-		return false;
+			return true;
+		else 
+			return false;
 	}
 	
 	// convert letter to upper case

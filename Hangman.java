@@ -128,6 +128,7 @@ public class Hangman extends ConsoleProgram {
 					sub_before = user_word.substring(0, index-1);
 					sub_after = "";
 				}
+				println("sub_before is " + sub_before + " and sub_after is " + sub_after);
 			user_word = sub_before + ch + sub_after;
 			}
 		}

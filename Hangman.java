@@ -111,6 +111,6 @@ public class Hangman extends ConsoleProgram {
 //		return return_word;
 //	}
 	
-	private void flipLetter () {
+	private void flipLetter (String letter) {
 
 }

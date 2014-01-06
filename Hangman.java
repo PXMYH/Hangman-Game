@@ -64,6 +64,7 @@ public class Hangman extends ConsoleProgram {
 	    				println("Please type in valid character! Valid characters are [a~zA~Z]");
 	    			else 
 	    				break;
+	    		}
     		}
     		
     		user_letter = convertCase(user_letter);

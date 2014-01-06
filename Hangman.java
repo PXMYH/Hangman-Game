@@ -38,10 +38,16 @@ public class Hangman extends ConsoleProgram {
     	
     	// constant check user guessing results and chances left 
     	while (number_of_chances > 0 && isResMatch() != true) {
+    		// display supporting information
     		println("The word now looks like this: ");
     		println("You have " + number_of_chances + " guesses left.");
-    		//print("Your guess: ");
+    		
+    		// receive user guess
     		String user_letter = readLine ("Your guess: ");
+    		
+    		// compare with lexicon word
+    		if (isLetterExist())
+    	
     		number_of_chances --;
     	}
     	

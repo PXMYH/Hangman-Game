@@ -125,7 +125,9 @@ public class Hangman extends ConsoleProgram {
 				} else if (index == 0) { // the letter is the first letter in the word
 					sub_before = "";
 					sub_after = guess_word.substring(index + 1, guess_word.length());
-				} else 
+				} else {
+					
+				}
 		}
 	}
 

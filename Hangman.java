@@ -74,5 +74,7 @@ public class Hangman extends ConsoleProgram {
 		
 		return false;
 	}
+	
+	private String convertCase ();
 
 }

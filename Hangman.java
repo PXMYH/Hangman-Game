@@ -87,9 +87,9 @@ public class Hangman extends ConsoleProgram {
     
     // check if user guessed word matches the original word
 	private boolean isResMatch () {
-		//if (user_word.equals(guess_word) )
-			//return true;
-		//else 
+		if (user_word.equals(guess_word) )
+			return true;
+		else 
 			return false;
 	}
 	

@@ -101,5 +101,7 @@ public class Hangman extends ConsoleProgram {
 	private boolean isLetterExist (String letter) {
 		return guess_word.contains(letter);
 	}
+	
+	// flip the all letters user guessed correctly
 
 }

@@ -75,9 +75,9 @@ public class Hangman extends ConsoleProgram {
     
     // initalize word 
     private String initWord (String word) {
-    	String init__word;
+    	String init_word;
     	for (int index = 0; index < word.length(); index ++){
-    		
+    		init_
     	}
     	return 
     }

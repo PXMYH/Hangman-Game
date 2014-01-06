@@ -115,7 +115,9 @@ public class Hangman extends ConsoleProgram {
 		char ch = letter.charAt(0);
 		
 		for (int index = 0; index < guess_word.length(); index ++) {
-			if (guess_word.charAt(index) == ch)
+			if (guess_word.charAt(index) == ch) // find match
+				
+				user_word.
 		}
 	}
 

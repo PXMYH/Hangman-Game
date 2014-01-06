@@ -46,6 +46,7 @@ public class Hangman extends ConsoleProgram {
     		
     		// receive user guess
     		String user_letter = readLine ("Your guess: ");
+    		caseConvert();
     		
     		// compare with lexicon word
     		if (isLetterExist()) { // letter exists

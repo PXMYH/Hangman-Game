@@ -75,11 +75,10 @@ public class Hangman extends ConsoleProgram {
     
     // initalize word 
     private String initWord (String word) {
-    	String init_word;
     	for (int index = 0; index < word.length(); index ++){
-    		init_word.charAt(index) = "-";
+    		word.replaceAll(regex, replacement) = "-";
     	}
-    	return init_word;
+    	return word;
     }
     
     

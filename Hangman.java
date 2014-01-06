@@ -34,6 +34,7 @@ public class Hangman extends ConsoleProgram {
     	
     	// variable declaration
     	String user_letter;
+    	char user_letter_ch;
     	
     	// get a guessing word from the dictionary
     	int word_index = (int) rgen.nextDouble(0, 9);
@@ -59,6 +60,7 @@ public class Hangman extends ConsoleProgram {
     			user_letter = readLine("Your guess: ");
     		}
     		
+    		if (user_letter)
     		
     		user_letter = convertCase(user_letter);
     		println("letter is converted to : " + user_letter);

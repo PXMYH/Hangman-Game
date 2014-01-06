@@ -79,7 +79,7 @@ public class Hangman extends ConsoleProgram {
     	for (int index = 0; index < word.length(); index ++){
     		init_word.charAt(index) = "-";
     	}
-    	return 
+    	return init_word
     }
     
     

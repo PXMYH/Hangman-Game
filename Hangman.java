@@ -49,7 +49,7 @@ public class Hangman extends ConsoleProgram {
     		user_letter = convertCase(user_letter);
     		
     		// compare with lexicon word
-    		if (isLetterExist()) { // letter exists
+    		if (isLetterExist()) // letter exists
     			// flip the letter that user guesses right
     			user_word = flipLetter();
     		} else 
@@ -76,7 +76,8 @@ public class Hangman extends ConsoleProgram {
 	}
 	
 	private String convertCase (String letter) {
-		
+		String 
+		return 
 	}
 
 }

@@ -100,7 +100,7 @@ public class Hangman extends ConsoleProgram {
 		
 		char ch = letter.charAt(0);
 		
-		if ()
+		if (letter.contains(ch))
 			return true;
 		else 
 			return false; 

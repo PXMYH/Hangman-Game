@@ -36,22 +36,24 @@ public class Hangman extends ConsoleProgram {
     	guess_word = hangmanlecxicon.getWord(word_index);
     	println("the guess word is " + guess_word);
     	
+    	String user_word;
+    	
     	// constant check user guessing results and chances left 
     	while (number_of_chances > 0 && isResMatch() != true) {
     		// display supporting information
-    		println("The word now looks like this: ");
+    		println("The word now looks like this: " + );
     		println("You have " + number_of_chances + " guesses left.");
     		
     		// receive user guess
     		String user_letter = readLine ("Your guess: ");
     		
-    		String user_word;
+    		
     		
     		// compare with lexicon word
     		if (isLetterExist()) { // letter exists
     			// flip the letter that user guesses right
     			user_word = flipLetter();
-    			println();
+    			println("");
     		} else 
     			number_of_chances --;
     	}

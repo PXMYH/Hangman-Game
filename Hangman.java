@@ -105,7 +105,7 @@ public class Hangman extends ConsoleProgram {
 	// flip the all letters user guessed correctly
 	private String flipLetter(String letter) {
 		
-		return 
+		 
 	}
 
 }

@@ -19,6 +19,8 @@ public class Hangman extends ConsoleProgram {
 	
 	private static final int NTURNS = 8;
 	
+	private String user_word;
+	
     public void run() {
     	
     	// variable definition
@@ -74,7 +76,7 @@ public class Hangman extends ConsoleProgram {
     
     // check if user guessed word matches the original word
 	private boolean isResMatch () {
-		
+		if (user_word )
 		return false;
 	}
 	

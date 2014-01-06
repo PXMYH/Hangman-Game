@@ -30,7 +30,7 @@ public class Hangman extends ConsoleProgram {
     	// get a guessing word from the dictionary
     	int word_index = (int) rgen.nextDouble(0, 9);
     	println("word index is " + word_index);
-    	String guess_word = "hello";
+    	String guess_word;
     	hangmanlecxicon = new HangmanLexicon();
     	
     	guess_word = hangmanlecxicon.getWord(word_index);

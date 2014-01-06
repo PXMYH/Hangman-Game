@@ -43,7 +43,7 @@ public class Hangman extends ConsoleProgram {
     		println("You have " + number_of_chances + " guesses left.");
     		
     		// receive user guess
-    		char user_letter = readLine ("Your guess: ");
+    		String user_letter = readLine ("Your guess: ");
     		
     		// compare with lexicon word
     		if (isLetterExist()) {

@@ -107,7 +107,7 @@ public class Hangman extends ConsoleProgram {
 	private String flipLetter(String letter) {
 		String tmp_word = guess_word, return_word;
 		String regexp = "[" + letter + "]";
-		print
+		println();
 		return_word = tmp_word.replaceAll(regexp, "-");
 		println("Flip word now is " + return_word);
 		return return_word;

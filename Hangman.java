@@ -112,5 +112,7 @@ public class Hangman extends ConsoleProgram {
 //	}
 	
 	private void flipLetter (String letter) {
+		for (int index = 0; index < guess_word.length(); index ++)
+	}
 
 }

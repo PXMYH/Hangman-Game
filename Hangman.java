@@ -51,11 +51,11 @@ public class Hangman extends ConsoleProgram {
     		println("letter is converted to : " + user_letter);
     		
     		// compare with lexicon word
-    		if (isLetterExist(user_letter)) // letter exists
+    		if (isLetterExist(user_letter)) { // letter exists
     			println("letter exists!");
     			// flip the letter that user guesses right
     			//user_word = flipLetter();
-    			
+    		}
     		else 
     			number_of_chances --;
     	}

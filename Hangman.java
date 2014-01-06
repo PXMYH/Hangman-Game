@@ -58,7 +58,7 @@ public class Hangman extends ConsoleProgram {
 	    		// 2. user typed character must be a-z or A-Z, no digits or other strange characters allowed
 	    		if (user_letter.length() != 1) {
 	    			println("Please type in a single character!");
-	    			user_letter = readLine("Your guess: ");
+	    			break;
 	    		}
 	    		
 	    		user_letter_ch = user_letter.charAt(0);

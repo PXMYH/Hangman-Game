@@ -63,6 +63,8 @@ public class Hangman extends ConsoleProgram {
 	    			println("Please type in valid character! Valid characters are [a~zA~Z]");
 	    		else if (user_letter.length() != 1) 
 	    			println("Please type in a single character!"); 
+	    		else 
+	    			break;
 	    		
 	    		if ()
     		}

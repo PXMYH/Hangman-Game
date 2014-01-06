@@ -74,7 +74,7 @@ public class Hangman extends ConsoleProgram {
 	}
     
     // initalize word 
-    private String initWord () {
+    private String initWord (String word) {
     	
     }
     

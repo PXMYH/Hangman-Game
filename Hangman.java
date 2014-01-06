@@ -47,6 +47,11 @@ public class Hangman extends ConsoleProgram {
     		
     		// receive user guess
     		String user_letter = readLine ("Your guess: ");
+    		
+    		// ensure letter user typed in satisfies requirements
+    		// 1. string length must be 1
+    		// 2. user typed character must be a-z or A-Z, no digits or other strange characters allowed
+    		
     		user_letter = convertCase(user_letter);
     		println("letter is converted to : " + user_letter);
     		

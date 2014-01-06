@@ -38,7 +38,6 @@ public class Hangman extends ConsoleProgram {
     	println("the guess word is " + guess_word);
     	
     	user_word = initWord(guess_word.length());
-    	//user_word = "-----";
     	
     	// constant check user guessing results and chances left 
     	while (number_of_chances > 0 && isResMatch() != true) {

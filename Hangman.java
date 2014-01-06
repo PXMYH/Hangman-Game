@@ -50,7 +50,7 @@ public class Hangman extends ConsoleProgram {
     		println("You have " + number_of_chances + " guesses left.");
     		
     		// receive user guess
-    		while (true)
+    		while (true) {
     		user_letter = readLine ("Your guess: ");
     		
     		// ensure letter user typed in satisfies requirements
@@ -65,6 +65,7 @@ public class Hangman extends ConsoleProgram {
     		if (user_letter_ch < 'A' || (user_letter_ch > 'Z' && user_letter_ch < 'a') || user_letter_ch > 'z' ) {
     			println("Please type in valid character! Valid characters are [a~zA~Z]");
     			user_letter = readLine("Your guess: ");
+    		}
     		}
     		
     		user_letter = convertCase(user_letter);

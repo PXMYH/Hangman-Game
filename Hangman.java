@@ -41,7 +41,7 @@ public class Hangman extends ConsoleProgram {
     	// constant check user guessing results and chances left 
     	while (number_of_chances > 0 && isResMatch() != true) {
     		// display supporting information
-    		println("The word now looks like this: " + );
+    		println("The word now looks like this: " + user_word);
     		println("You have " + number_of_chances + " guesses left.");
     		
     		// receive user guess

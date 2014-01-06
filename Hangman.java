@@ -106,6 +106,7 @@ public class Hangman extends ConsoleProgram {
 	private void flipLetter(String letter) {
 		String tmp_word = guess_word;
 		tmp_word.replaceAll(letter, "-");
+		println();
 		 
 	}
 

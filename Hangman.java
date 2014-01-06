@@ -104,15 +104,13 @@ public class Hangman extends ConsoleProgram {
 	}
 	
 	// flip the all letters user guessed correctly
-	private String flipLetter(String letter) {
-		String tmp_word = guess_word, return_word;
-		String regexp = "[^" + letter + "]";
-		return_word = tmp_word.replaceAll(regexp, "-");
-		return return_word;
-	}
+//	private String flipLetter(String letter) {
+//		String tmp_word = guess_word, return_word;
+//		String regexp = "[^" + letter + "]";
+//		return_word = tmp_word.replaceAll(regexp, "-");
+//		return return_word;
+//	}
 	
 	private void flipLetter () {
-		
-	}
 
 }

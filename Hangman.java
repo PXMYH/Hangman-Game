@@ -65,8 +65,6 @@ public class Hangman extends ConsoleProgram {
 	    			println("Please type in a single character!"); 
 	    		else 
 	    			break;
-	    		
-	    		if ()
     		}
     		
     		user_letter = convertCase(user_letter);

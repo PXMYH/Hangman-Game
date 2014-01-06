@@ -79,7 +79,7 @@ public class Hangman extends ConsoleProgram {
     	String tmp_word = "";
     	for (int index = 0; index < length; index ++)
     		tmp_word = tmp_word + "-";
-    	}
+    	
     	return tmp_word;
     }
     

@@ -27,9 +27,12 @@ public class Hangman extends ConsoleProgram {
     	// Display initial welcome message
     	println("Welcome to Hangman!");
     	
+    	// initialize lexicon class
+    	hangmanlecxicon = new HangmanLexicon();
+    	
     	// get a guessing word from the dictionary
     	int word_index = (int) rgen.nextDouble(0, 9);
-    	hangmanlecxicon = new HangmanLexicon();
+    	
     	
     	String guess_word;
     	guess_word = hangmanlecxicon.getWord(word_index);

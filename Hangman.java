@@ -77,7 +77,6 @@ public class Hangman extends ConsoleProgram {
     private String initWord (String word) {
     	for (int index = 0; index < word.length(); index ++){
     		word.replaceAll("\\w", "-");
-    		word.rep
     	}
     	return word;
     }

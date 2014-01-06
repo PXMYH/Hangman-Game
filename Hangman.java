@@ -116,8 +116,9 @@ public class Hangman extends ConsoleProgram {
 		String sub_before, sub_after;
 		
 		for (int index = 0; index < guess_word.length(); index ++) {
-			if (guess_word.charAt(index) == ch) // find match
-				if (index != 0) {
+			// find match
+			if (guess_word.charAt(index) == ch) 
+				if (index != 0) { // the letter is not the first one
 					sub_before = guess_word.substring(0, index-1);
 					sub_after = guess_word.substring(index+1, guess_word.length());
 					user_word = sub_before + ch + sub_after;

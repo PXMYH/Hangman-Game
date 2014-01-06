@@ -50,6 +50,7 @@ public class Hangman extends ConsoleProgram {
     		println("You have " + number_of_chances + " guesses left.");
     		
     		// receive user guess
+    		while (true)
     		user_letter = readLine ("Your guess: ");
     		
     		// ensure letter user typed in satisfies requirements

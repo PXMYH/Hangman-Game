@@ -103,7 +103,7 @@ public class Hangman extends ConsoleProgram {
 	}
 	
 	// flip the all letters user guessed correctly
-	private void flipLetter(String letter) {
+	private String flipLetter(String letter) {
 		String tmp_word = guess_word, return_word;
 		return_word = tmp_word.replaceAll("E", "-");
 		println("Flip word now is " + return_word);

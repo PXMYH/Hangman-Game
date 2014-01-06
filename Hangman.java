@@ -51,21 +51,21 @@ public class Hangman extends ConsoleProgram {
     		
     		// receive user guess
     		while (true) {
-    		user_letter = readLine ("Your guess: ");
-    		
-    		// ensure letter user typed in satisfies requirements
-    		// 1. string length must be 1
-    		// 2. user typed character must be a-z or A-Z, no digits or other strange characters allowed
-    		if (user_letter.length() != 1) {
-    			println("Please type in a single character!");
-    			user_letter = readLine("Your guess: ");
-    		}
-    		
-    		user_letter_ch = user_letter.charAt(0);
-    		if (user_letter_ch < 'A' || (user_letter_ch > 'Z' && user_letter_ch < 'a') || user_letter_ch > 'z' ) {
-    			println("Please type in valid character! Valid characters are [a~zA~Z]");
-    			user_letter = readLine("Your guess: ");
-    		}
+	    		user_letter = readLine ("Your guess: ");
+	    		
+	    		// ensure letter user typed in satisfies requirements
+	    		// 1. string length must be 1
+	    		// 2. user typed character must be a-z or A-Z, no digits or other strange characters allowed
+	    		if (user_letter.length() != 1) {
+	    			println("Please type in a single character!");
+	    			user_letter = readLine("Your guess: ");
+	    		}
+	    		
+	    		user_letter_ch = user_letter.charAt(0);
+	    		if (user_letter_ch < 'A' || (user_letter_ch > 'Z' && user_letter_ch < 'a') || user_letter_ch > 'z' ) {
+	    			println("Please type in valid character! Valid characters are [a~zA~Z]");
+	    			user_letter = readLine("Your guess: ");
+	    		}
     		}
     		
     		user_letter = convertCase(user_letter);

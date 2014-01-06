@@ -46,12 +46,11 @@ public class Hangman extends ConsoleProgram {
     		String user_letter = readLine ("Your guess: ");
     		
     		// compare with lexicon word
-    		if (isLetterExist()) {
+    		if (isLetterExist()) { // letter exists
     			flipLetter();
     			
-    		}
-    	
-    		number_of_chances --;
+    		} else 
+    			number_of_chances --;
     	}
     	
     	

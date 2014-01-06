@@ -71,13 +71,18 @@ public class Hangman extends ConsoleProgram {
     	
 	}
     
+    
+    // check if user guessed word matches the original word
 	private boolean isResMatch () {
 		
 		return false;
 	}
 	
+	// convert letter to upper case
 	private String convertCase (String letter) {
 		return letter.toUpperCase(); 
 	}
+	
+	
 
 }

@@ -125,7 +125,7 @@ public class Hangman extends ConsoleProgram {
 					sub_before = user_word.substring(0, index-1);
 					sub_after = user_word.substring(index+1, user_word.length());
 				} else if (index == 0) { // the letter is the first letter in the word
-					println();
+					println("index is 0");
 					sub_before = "";
 					sub_after = user_word.substring(index + 1, user_word.length()-1);
 				} else { // the letter is the last letter in the word

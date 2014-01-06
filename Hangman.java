@@ -32,6 +32,9 @@ public class Hangman extends ConsoleProgram {
     	// initialize lexicon class
     	hangmanlecxicon = new HangmanLexicon();
     	
+    	// variable declaration
+    	String user_letter;
+    	
     	// get a guessing word from the dictionary
     	int word_index = (int) rgen.nextDouble(0, 9);
     	guess_word = hangmanlecxicon.getWord(word_index);
@@ -51,6 +54,11 @@ public class Hangman extends ConsoleProgram {
     		// ensure letter user typed in satisfies requirements
     		// 1. string length must be 1
     		// 2. user typed character must be a-z or A-Z, no digits or other strange characters allowed
+    		if (user_letter.length() != 1) {
+    			println("Please type in a single character!");
+    			user_letter
+    		}
+    		
     		
     		user_letter = convertCase(user_letter);
     		println("letter is converted to : " + user_letter);

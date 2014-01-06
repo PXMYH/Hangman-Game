@@ -63,7 +63,7 @@ public class Hangman extends ConsoleProgram {
     		user_letter_ch = user_letter.charAt(0);
     		if (user_letter_ch < 'A' || (user_letter_ch > 'Z' && user_letter_ch < 'a') || user_letter_ch > 'z' ) {
     			println("Please type in valid character! Valid characters are [a~zA~Z]");
-    			user_letter readLine("Your guess: ");
+    			user_letter =  readLine("Your guess: ");
     		}
     		
     		user_letter = convertCase(user_letter);

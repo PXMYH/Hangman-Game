@@ -49,7 +49,7 @@ public class Hangman extends ConsoleProgram {
     		println("You have " + number_of_chances + " guesses left.");
     		
     		// receive user guess
-    		String user_letter = readLine ("Your guess: ");
+    		user_letter = readLine ("Your guess: ");
     		
     		// ensure letter user typed in satisfies requirements
     		// 1. string length must be 1

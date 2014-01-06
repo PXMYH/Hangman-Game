@@ -54,7 +54,7 @@ public class Hangman extends ConsoleProgram {
     		// compare with lexicon word
     		if (isLetterExist(user_letter)) // letter exists
     			// flip the letter that user guesses right
-    			//user_word = flipLetter();
+    			user_word = flipLetter();
     		else 
     			number_of_chances --;
     	}

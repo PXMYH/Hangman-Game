@@ -86,5 +86,9 @@ public class Hangman extends ConsoleProgram {
 		return letter.toUpperCase(); 
 	}
 
+	// check if user guessed letter exist in the original guessing word
+	private boolean isLetterExist() {
+		
+	}
 
 }

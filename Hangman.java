@@ -76,7 +76,6 @@ public class Hangman extends ConsoleProgram {
 	}
 	
 	private String convertCase (String letter) {
-		
 		return letter.toUpperCase(); 
 	}
 

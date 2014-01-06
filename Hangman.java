@@ -124,7 +124,7 @@ public class Hangman extends ConsoleProgram {
 					user_word = sub_before + ch + sub_after;
 				} else if (index == 0) { // the letter is the first letter in the word
 					
-				}
+				} else 
 		}
 	}
 

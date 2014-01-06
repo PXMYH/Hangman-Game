@@ -107,7 +107,7 @@ public class Hangman extends ConsoleProgram {
 		String tmp_word = guess_word, return_word;
 		return_word = tmp_word.replaceAll("E", "-");
 		println("Flip word now is " + return_word);
-		 
+		return return_word;
 	}
 
 }

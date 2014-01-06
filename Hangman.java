@@ -62,9 +62,8 @@ public class Hangman extends ConsoleProgram {
 	    			user_letter_ch = user_letter.charAt(0);
 	    			if (user_letter_ch < 'A' || (user_letter_ch > 'Z' && user_letter_ch < 'a') || user_letter_ch > 'z' || user_letter.isEmpty() ) 
 	    				println("Please type in valid character! Valid characters are [a~zA~Z]");
-	    		}
-	    		else 
-	    			break;
+	    			else 
+	    				break;
     		}
     		
     		user_letter = convertCase(user_letter);

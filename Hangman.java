@@ -110,5 +110,9 @@ public class Hangman extends ConsoleProgram {
 		return_word = tmp_word.replaceAll(regexp, "-");
 		return return_word;
 	}
+	
+	private void flipLetter () {
+		
+	}
 
 }

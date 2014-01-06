@@ -120,7 +120,7 @@ public class Hangman extends ConsoleProgram {
 				if (index != 0) {
 					sub_before = guess_word.substring(0, index-1);
 					sub_after = guess_word.substring(index+1, guess_word.length());
-					user_word = sub_before + sub_after;
+					user_word = sub_before + ch + sub_after;
 				}
 		}
 	}

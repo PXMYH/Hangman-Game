@@ -156,6 +156,7 @@ public class HangmanCanvas extends GCanvas {
 	}
 	
 	private void drawBody() {
+		// body
 		pt_e_x = pt_c_x;
 		pt_e_y = pt_c_y + ROPE_LENGTH + 2 * HEAD_RADIUS;
 		pt_k_x = pt_e_x;
@@ -166,10 +167,13 @@ public class HangmanCanvas extends GCanvas {
 	}
 	
 	private void drawLeftArm() {
+		// left upper arm
 		pt_f_x = pt_e_x;
 		pt_f_y = pt_c_y + ROPE_LENGTH + 2 * HEAD_RADIUS + ARM_OFFSET_FROM_HEAD;
 		pt_g_x = pt_f_x - UPPER_ARM_LENGTH;
 		pt_g_y = pt_f_y;
+		
+		
 		
 		left_upper_arm = new GLine(pt_f_x, pt_f_y, pt_g_x, pt_g_y);
 		add(left_upper_arm);

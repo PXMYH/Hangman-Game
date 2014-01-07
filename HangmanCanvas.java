@@ -166,8 +166,8 @@ public class HangmanCanvas extends GCanvas {
 	}
 	
 	private void drawLeftArm() {
-		pt_f_x = ;
-		pt_f_y = ;
+		pt_f_x = pt_e_x;
+		pt_f_y = pt_c_y + ROPE_LENGTH + 2 * HEAD_RADIUS + ARM_OFFSET_FROM_HEAD;
 		pt_g_x = ;
 		pt_g_y = ;
 		

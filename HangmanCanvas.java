@@ -42,6 +42,8 @@ public class HangmanCanvas extends GCanvas {
 	private double pt_m_x, pt_m_y;
 	private double pt_n_x, pt_n_y;
 	private double pt_o_x, pt_o_y;
+	private double pt_p_x, pt_p_y;
+	private double pt_q_x, pt_q_y;
 	
 	// the following code doesn't work!
 //	private final double pt_a_x = getWidth() / 2 - BEAM_LENGTH;
@@ -164,6 +166,7 @@ public class HangmanCanvas extends GCanvas {
 	}
 	
 	private void drawLeftArm() {
+		pt_f_
 		
 	}
 	

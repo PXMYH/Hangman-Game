@@ -33,6 +33,9 @@ public class Hangman extends ConsoleProgram {
 	
     public void run() {
     	
+    	// reset canvas window
+    	canvas.reset();
+    	
     	// variable definition
     	int number_of_chances = NTURNS;
 		

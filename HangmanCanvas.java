@@ -129,8 +129,6 @@ public class HangmanCanvas extends GCanvas {
 		// draw right foot
 		case 8: break;
 		default: break;
-			
-		
 		}
 		
 		

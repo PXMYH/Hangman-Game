@@ -7,10 +7,13 @@
 import acm.graphics.*;
 
 public class HangmanCanvas extends GCanvas {
+	
+	// instance variable declaration
+	private GLine line;
 
 /** Resets the display so that only the scaffold appears */
 	public void reset() {
-		/* You fill this in */
+		getWidth
 	}
 
 /**

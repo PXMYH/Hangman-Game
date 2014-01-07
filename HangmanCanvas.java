@@ -59,7 +59,6 @@ public class HangmanCanvas extends GCanvas {
 /** Resets the display so that only the scaffold appears */
 	public void reset() {
 		// draw scaffold
-		scaffold = new GLine()
 		scaffold = new GLine(pt_a_x, pt_a_y, pt_b_x, pt_b_y);
 		beam = new GLine(getWidth() / 2 - BEAM_LENGTH);
 		add(scaffold);

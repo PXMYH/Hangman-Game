@@ -155,19 +155,15 @@ public class Hangman extends ConsoleProgram {
 			// find match in specific position
 			if (guess_word.charAt(index) == ch) {
 				if (index != 0 && index != user_word.length()) { // the letter is not the first one nor the last one
-					println("index is neither first nor last");
 					sub_before = user_word.substring(0, index);
 					sub_after = user_word.substring(index+1, word_length);
 				} else if (index == 0) { // the letter is the first letter in the word
-					println("index is " + index);
 					sub_before = "";
 					sub_after = user_word.substring(index + 1, word_length);
 				} else { // the letter is the last letter in the word
-					println("index is last" + index);
 					sub_before = user_word.substring(0, index);
 					sub_after = "";
 				}
-				println("sub_before is " + sub_before + " and sub_after is " + sub_after);
 			user_word = sub_before + ch + sub_after;
 			}
 		}

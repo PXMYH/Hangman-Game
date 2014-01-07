@@ -61,6 +61,7 @@ public class Hangman extends ConsoleProgram {
     		// display supporting information
     		println("The word now looks like this: " + user_word);
     		println("You have " + number_of_chances + " guesses left.");
+    		canvas.remove(user_word);
     		canvas.displayWord(user_word);
     		
     		// receive user guess

@@ -227,7 +227,6 @@ public class HangmanCanvas extends GCanvas {
 		
 		add(hip);
 		add(right_leg);
-		
 	}
 	
 	private void drawLeftFoot() {

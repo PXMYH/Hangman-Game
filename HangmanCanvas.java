@@ -100,6 +100,8 @@ public class HangmanCanvas extends GCanvas {
 	public void noteIncorrectGuess(char letter) {
 		// print incorrect guesses to the canvas
 		String incorrect_guesses = "";
+		double incorrect_guesses_label_x = getWidth() / 2 - BEAM_LENGTH;
+		double incorrect_guesses_label_y = getHeight() * 46 / 50;
 		guessed_letters = new GLabel (incorrect_guesses, );
 	}
 

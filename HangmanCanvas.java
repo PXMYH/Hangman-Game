@@ -10,6 +10,20 @@ public class HangmanCanvas extends GCanvas {
 	
 	// instance variable declaration
 	private GLine scaffold;
+	private GLine beam;
+	private GLine rope;
+	private GOval head;
+	private GLine body;
+	private GLine left_upper_arm;
+	private GLine right_upper_arm;
+	private GLine left_lower_arm;
+	private GLine right_lower_arm;
+	private GLine hip;
+	private GLine left_leg;
+	private GLine right_leg;
+	private GLine left_foot;
+	private GLine right_foot;
+
 
 /** Resets the display so that only the scaffold appears */
 	public void reset() {

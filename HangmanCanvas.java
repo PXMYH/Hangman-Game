@@ -25,6 +25,7 @@ public class HangmanCanvas extends GCanvas {
 	private GLine right_foot;
 	
 	private GLabel display_word;
+	private Glabel guessed_letters;
 	
 	// define hangman joint points to pinpoint its skeleton
 	private double pt_a_x, pt_a_y;

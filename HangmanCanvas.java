@@ -161,7 +161,6 @@ public class HangmanCanvas extends GCanvas {
 		
 		body = new GLine (pt_e_x, pt_e_y, pt_k_x, pt_k_y);
 		add(body);
-		
 	}
 	
 	private void drawLeftArm() {

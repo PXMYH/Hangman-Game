@@ -225,7 +225,7 @@ public class HangmanCanvas extends GCanvas {
 		hip = new GLine(pt_k_x, pt_k_y, pt_o_x, pt_o_y);
 		right_leg = new GLine(pt_o_x, pt_o_y, pt_p_x, pt_p_y);
 		
-		add();
+		add(hip);
 		
 	}
 	

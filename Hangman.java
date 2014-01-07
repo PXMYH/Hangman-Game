@@ -19,6 +19,9 @@ public class Hangman extends ConsoleProgram {
 	// random generator declaration
 	private RandomGenerator rgen = RandomGenerator.getInstance();
 	
+	// class declaration
+	private HangmanCanvas canvas;
+	
 	// variables declaration
 	private static final int NTURNS = 8;
 	private String user_word, guess_word;

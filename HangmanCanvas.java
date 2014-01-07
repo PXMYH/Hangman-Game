@@ -68,10 +68,10 @@ public class HangmanCanvas extends GCanvas {
 		pt_a_y = getHeight() * 38 / 50;
 		pt_b_x = pt_a_x;
 		pt_b_y = pt_a_y - SCAFFOLD_HEIGHT;
-//		double pt_c_x = getWidth() / 2;
-//		double pt_c_y = pt_b_y;
-//		double pt_d_x = pt_c_x;
-//		double pt_d_y = pt_c_y + ROPE_LENGTH;
+		pt_c_x = getWidth() / 2;
+		pt_c_y = pt_b_y;
+		pt_d_x = pt_c_x;
+		pt_d_y = pt_c_y + ROPE_LENGTH;
 		
 		// draw scaffold
 		scaffold = new GLine(pt_a_x, pt_a_y, pt_b_x, pt_b_y);

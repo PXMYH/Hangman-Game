@@ -41,7 +41,7 @@ public class HangmanCanvas extends GCanvas {
 	private double pt_g_y;
 	private double pt_h_x;
 	private double pt_h_y;
-	private final double pt_j_x = ;
+	private final double pt_j_x;
 	private final double pt_j_y = ;
 	private final double pt_k_x = ;
 	private final double pt_k_y = ;

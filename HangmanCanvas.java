@@ -40,6 +40,7 @@ public class HangmanCanvas extends GCanvas {
 	private double pt_n_x, pt_n_y;
 	private double pt_o_x, pt_o_y;
 	
+	// the following code doesn't work!
 //	private final double pt_a_x = getWidth() / 2 - BEAM_LENGTH;
 //	private final double pt_a_y = getHeight() * 38 / 50;
 //	private final double pt_b_x = pt_a_x;

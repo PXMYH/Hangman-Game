@@ -21,7 +21,6 @@ public class Hangman extends ConsoleProgram {
 	
 	// variables declaration
 	private static final int NTURNS = 8;
-	
 	private String user_word, guess_word;
 	
     public void run() {

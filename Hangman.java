@@ -91,8 +91,9 @@ public class Hangman extends ConsoleProgram {
     			flipLetter(user_letter);
     			println("After flipping, the user word is " + user_word);
     		}
-    		else 
+    		else {
     			number_of_chances --;
+    		}
     	}
     	
     	

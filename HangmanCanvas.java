@@ -99,7 +99,8 @@ public class HangmanCanvas extends GCanvas {
  */
 	public void noteIncorrectGuess(char letter) {
 		// print incorrect guesses to the canvas
-		guessed_letters = new GLabel ();
+		String incorrect_guesses = "";
+		guessed_letters = new GLabel ("", );
 	}
 
 /* Constants for the simple version of the picture (in pixels) */

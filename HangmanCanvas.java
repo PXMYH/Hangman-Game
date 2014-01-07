@@ -164,5 +164,9 @@ public class HangmanCanvas extends GCanvas {
 	private void drawRightArm() {
 		
 	}
+	
+	private void drawLeftLeg() {
+		
+	}
 
 }

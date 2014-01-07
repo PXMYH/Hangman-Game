@@ -149,6 +149,8 @@ public class HangmanCanvas extends GCanvas {
 	
 	
 	/* method to draw different parts of hangman */
-	private 
+	private void drawBody() {
+		
+	}
 
 }

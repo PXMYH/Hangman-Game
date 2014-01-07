@@ -25,10 +25,10 @@ public class HangmanCanvas extends GCanvas {
 	private GLine right_foot;
 	
 	// define hangman joint points to pinpoint its skeleton
-	private final double pt_a_x = getWidth() / 2 - BEAM_LENGTH;
-	private final double pt_a_y = getHeight() * 38 / 50;
-	private final double pt_b_x = pt_a_x;
-	private final double pt_b_y = pt_a_y - SCAFFOLD_HEIGHT;
+	private final double pt_a_x;
+	private final double pt_a_y;
+	private final double pt_b_x;
+	private final double pt_b_y;
 	
 //	private final double pt_a_x = getWidth() / 2 - BEAM_LENGTH;
 //	private final double pt_a_y = getHeight() * 38 / 50;

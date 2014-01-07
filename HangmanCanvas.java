@@ -244,6 +244,7 @@ public class HangmanCanvas extends GCanvas {
 		pt_q_y = pt_p_y;
 		
 		right_foot = new GLine(pt_p_x, pt_p_y, pt_q_x, pt_q_y);
+		add();
 	}
 
 }

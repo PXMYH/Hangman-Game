@@ -33,26 +33,26 @@ public class HangmanCanvas extends GCanvas {
 	private final double pt_c_y = pt_b_y;
 	private final double pt_d_x = pt_c_x;
 	private final double pt_d_y = pt_c_y + ROPE_LENGTH;
-	private final double pt_e_x = ;
-	private final double pt_e_y = ;
-	private final double pt_f_x = ;
-	private final double pt_f_y = ;
-	private final double pt_g_x = ;
-	private final double pt_g_y = ;
-	private final double pt_h_x = ;
-	private final double pt_h_y = ;
-	private final double pt_j_x = ;
-	private final double pt_j_y = ;
-	private final double pt_k_x = ;
-	private final double pt_k_y = ;
-	private final double pt_l_x = ;
-	private final double pt_l_y = ;
-	private final double pt_m_x = ;
-	private final double pt_m_y = ;
-	private final double pt_n_x = ;
-	private final double pt_n_y = ;
-	private final double pt_o_x = ;
-	private final double pt_o_y = ;
+//	private final double pt_e_x = ;
+//	private final double pt_e_y = ;
+//	private final double pt_f_x = ;
+//	private final double pt_f_y = ;
+//	private final double pt_g_x = ;
+//	private final double pt_g_y = ;
+//	private final double pt_h_x = ;
+//	private final double pt_h_y = ;
+//	private final double pt_j_x = ;
+//	private final double pt_j_y = ;
+//	private final double pt_k_x = ;
+//	private final double pt_k_y = ;
+//	private final double pt_l_x = ;
+//	private final double pt_l_y = ;
+//	private final double pt_m_x = ;
+//	private final double pt_m_y = ;
+//	private final double pt_n_x = ;
+//	private final double pt_n_y = ;
+//	private final double pt_o_x = ;
+//	private final double pt_o_y = ;
 	
 
 

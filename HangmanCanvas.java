@@ -234,12 +234,14 @@ public class HangmanCanvas extends GCanvas {
 		pt_n_x = pt_m_x - FOOT_LENGTH;
 		pt_n_y = pt_m_y;
 		
+		left_foot = new GLine();
 	}
 	
 	private void drawRightFoot() {
 		// right foot
 		pt_q_x = pt_p_x + FOOT_LENGTH;
 		pt_q_y = pt_p_y;
+		
 		
 	}
 

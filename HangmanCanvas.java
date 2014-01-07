@@ -25,6 +25,8 @@ public class HangmanCanvas extends GCanvas {
 	private GLine right_foot;
 	
 	// define hangman joint points to pinpoint its skeleton
+	private static double pt_a = ;
+	
 
 
 /** Resets the display so that only the scaffold appears */

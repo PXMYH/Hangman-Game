@@ -155,6 +155,8 @@ public class HangmanCanvas extends GCanvas {
 	private void drawHead() {
 		head = new GOval ();
 		
+		add(head);
+		
 	}
 	
 	private void drawBody() {

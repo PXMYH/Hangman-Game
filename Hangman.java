@@ -27,7 +27,8 @@ public class Hangman extends ConsoleProgram {
 	private String user_word, guess_word;
 	
 	public void init() {
-		
+		canvas = new HangmanCanvas();
+		add(canvas);
 	}
 	
     public void run() {

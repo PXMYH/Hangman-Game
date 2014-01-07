@@ -111,7 +111,9 @@ public class HangmanCanvas extends GCanvas {
 		remove(guessed_letters);
 		add(guessed_letters);
 		
+		switch () {
 		// draw head
+		}
 		
 		
 	}

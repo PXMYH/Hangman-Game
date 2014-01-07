@@ -36,6 +36,7 @@ public class HangmanCanvas extends GCanvas {
 	private double pt_f_x, pt_f_y;
 	private double pt_g_x, pt_g_y;
 	private double pt_h_x, pt_h_y;
+	private double pt_i_x, pt_i_y;
 	private double pt_j_x, pt_j_y;
 	private double pt_k_x, pt_k_y;
 	private double pt_l_x, pt_l_y;
@@ -184,6 +185,9 @@ public class HangmanCanvas extends GCanvas {
 	}
 	
 	private void drawRightArm() {
+		// right upper arm
+		pt_i_x = pt_f_x + UPPER_ARM_LENGTH;
+		pt_
 		
 	}
 	

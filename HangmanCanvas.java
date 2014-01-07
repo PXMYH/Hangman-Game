@@ -25,14 +25,15 @@ public class HangmanCanvas extends GCanvas {
 	private GLine right_foot;
 	
 	// define hangman joint points to pinpoint its skeleton
-	private static double pt_a = ;
+	private final double pt_a_x = getWidth() / 2 - BEAM_LENGTH;
 	
 
 
 /** Resets the display so that only the scaffold appears */
 	public void reset() {
 		// draw scaffold
-		scaffold = new GLine(getWidth() / 2 - BEAM_LENGTH, getHeight() * 38 / 50, getWidth() / 2 - BEAM_LENGTH, getHeight() * 38 / 50 - SCAFFOLD_HEIGHT );
+		scaffold = new GLine()
+		scaffold = new GLine(, getHeight() * 38 / 50, getWidth() / 2 - BEAM_LENGTH, getHeight() * 38 / 50 - SCAFFOLD_HEIGHT );
 		beam = new GLine(getWidth() / 2 - BEAM_LENGTH);
 		add(scaffold);
 	}

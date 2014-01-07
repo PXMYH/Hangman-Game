@@ -25,7 +25,7 @@ public class HangmanCanvas extends GCanvas {
 	private GLine right_foot;
 	
 	// define hangman joint points to pinpoint its skeleton
-	private final double pt_a_x;
+	private static double pt_a_x;
 	private final double pt_a_y;
 	private final double pt_b_x;
 	private final double pt_b_y;

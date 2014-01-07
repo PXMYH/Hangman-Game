@@ -93,7 +93,7 @@ public class Hangman extends ConsoleProgram {
     		}
     		else {
     			number_of_chances --;
-    			canvas.noteIncorrectGuess(user_letter);
+    			canvas.noteIncorrectGuess(user_letter_ch);
     		}
     	}
     	

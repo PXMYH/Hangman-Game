@@ -180,6 +180,7 @@ public class HangmanCanvas extends GCanvas {
 		
 		left_upper_arm = new GLine(pt_f_x, pt_f_y, pt_g_x, pt_g_y);
 		left_lower_arm = new GLine(pt_g_x, pt_g_y, pt_h_x, pt_h_y);
+		
 		add(left_upper_arm);
 		add(left_lower_arm);
 	}
@@ -195,6 +196,8 @@ public class HangmanCanvas extends GCanvas {
 		
 		right_upper_arm = new GLine(pt_f_x, pt_f_y, pt_i_x, pt_i_y);
 		right_lower_arm = new GLine(pt_i_x, pt_i_y, pt_j_x, pt_j_y);
+		
+		add()
 		
 	}
 	

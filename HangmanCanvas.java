@@ -205,7 +205,7 @@ public class HangmanCanvas extends GCanvas {
 		// left leg + half hip
 		pt_l_x = pt_k_x + HIP_WIDTH / 2 ;
 		pt_l_y = pt_k_y;
-		pt_m_x = ;
+		pt_m_x = pt_l_x;
 		pt_m_y = ;
 	}
 	

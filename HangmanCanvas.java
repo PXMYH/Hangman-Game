@@ -63,8 +63,8 @@ public class HangmanCanvas extends GCanvas {
 		beam = new GLine(pt_b_x, pt_b_y, pt_c_x, pt_c_y);
 		rope = new GLine(pt_c_x, pt_c_y, pt_d_x, pt_d_y);
 		add(scaffold);
-		add(beam);
-		add(rope);
+		//add(beam);
+		//add(rope);
 	}
 
 /**

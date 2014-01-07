@@ -54,6 +54,7 @@ public class HangmanCanvas extends GCanvas {
 //	private final double pt_d_y = pt_c_y + ROPE_LENGTH;
 
 	private String incorrect_guesses = "";
+	private static int incorrect_count = 0;
 
 
 /** Resets the display so that only the scaffold appears */
@@ -105,6 +106,10 @@ public class HangmanCanvas extends GCanvas {
 		guessed_letters = new GLabel (incorrect_guesses, incorrect_guesses_label_x, incorrect_guesses_label_y);
 		remove(guessed_letters);
 		add(guessed_letters);
+		
+		// draw head
+		
+		
 	}
 
 /* Constants for the simple version of the picture (in pixels) */

@@ -99,6 +99,10 @@ public class HangmanCanvas extends GCanvas {
  * guesses that appears at the bottom of the window.
  */
 	public void noteIncorrectGuess(char letter) {
+		
+		// increment incorrect count to determine the part of the hangman body to draw
+		incorrect_count ++;
+		
 		// print incorrect guesses to the canvas
 		incorrect_guesses = incorrect_guesses + letter;
 		double incorrect_guesses_label_x = getWidth() / 2 - BEAM_LENGTH;

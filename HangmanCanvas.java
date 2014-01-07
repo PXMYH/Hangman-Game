@@ -194,7 +194,7 @@ public class HangmanCanvas extends GCanvas {
 		pt_j_y = pt_i_y + LOWER_ARM_LENGTH;
 		
 		right_upper_arm = new GLine(pt_f_x, pt_f_y, pt_i_x, pt_i_y);
-		right_lower_arm = new GLine(pt_i_x, pt_i_y, pt_j_x, pt_j_y)
+		right_lower_arm = new GLine(pt_i_x, pt_i_y, pt_j_x, pt_j_y);
 		
 	}
 	

@@ -206,7 +206,7 @@ public class HangmanCanvas extends GCanvas {
 		pt_l_x = pt_k_x + HIP_WIDTH / 2 ;
 		pt_l_y = pt_k_y;
 		pt_m_x = pt_l_x;
-		pt_m_y = ;
+		pt_m_y = pt_l_y + LEG_LENGTH;
 	}
 	
 	private void drawRightLeg() {

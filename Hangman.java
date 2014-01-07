@@ -149,7 +149,6 @@ public class Hangman extends ConsoleProgram {
 		String sub_before, sub_after;
 		int word_length = user_word.length();
 		
-		
 		for (int index = 0; index < user_word.length(); index ++) {
 			// find match in specific position
 			if (guess_word.charAt(index) == ch) {

@@ -113,7 +113,7 @@ public class HangmanCanvas extends GCanvas {
 		
 		switch (incorrect_count) {
 		// draw head
-		case 1: 
+		case 1: break;
 		// draw body
 		case 2:
 		// draw left arm 

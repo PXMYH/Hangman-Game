@@ -83,7 +83,9 @@ public class HangmanCanvas extends GCanvas {
  * been guessed so far; unguessed letters are indicated by hyphens.
  */
 	public void displayWord(String word) {
-		double 
+		double display_word_label_x = getWidth() / 2 - BEAM_LENGTH;
+		double display_word_label_y = getHeight() * 42 / 50;
+		display_word = new GLabel (word, display_word_label_x, display_word_label_y);
 	}
 
 /**

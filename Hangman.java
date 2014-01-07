@@ -28,6 +28,7 @@ public class Hangman extends ConsoleProgram {
 	
 	public void init() {
 		canvas = new HangmanCanvas();
+		canvas.setSize(800, 600)
 		add(canvas);
 	}
 	

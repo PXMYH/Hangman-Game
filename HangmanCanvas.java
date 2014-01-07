@@ -156,6 +156,8 @@ public class HangmanCanvas extends GCanvas {
 	private void drawBody() {
 		pt_e_x = pt_c_x;
 		pt_e_y = pt_c_y + ROPE_LENGTH + 2 * HEAD_RADIUS;
+		pt_k_x = pt_e_x;
+		pt_k_y = pt_e_y + BODY_LENGTH;
 		
 	}
 	

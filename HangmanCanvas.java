@@ -91,7 +91,7 @@ public class HangmanCanvas extends GCanvas {
 		double display_word_label_y = getHeight() * 42 / 50;
 		display_word = new GLabel (word, display_word_label_x, display_word_label_y);
 		//display_word.setFont("SanSerif-20");
-		//remove(display_word);
+		remove(display_word);
 		add(display_word);
 	}
 

@@ -26,6 +26,33 @@ public class HangmanCanvas extends GCanvas {
 	
 	// define hangman joint points to pinpoint its skeleton
 	private final double pt_a_x = getWidth() / 2 - BEAM_LENGTH;
+	private final double pt_a_y = ;
+	private final double pt_b_x = ;
+	private final double pt_b_x = ;
+	private final double pt_c_x = ;
+	private final double pt_c_x = ;
+	private final double pt_d_x = ;
+	private final double pt_d_x = ;
+	private final double pt_e_x = ;
+	private final double pt_e_x = ;
+	private final double pt_f_x = ;
+	private final double pt_f_x = ;
+	private final double pt_g_x = ;
+	private final double pt_g_x = ;
+	private final double pt_h_x = ;
+	private final double pt_h_x = ;
+	private final double pt_j_x = ;
+	private final double pt_j_x = ;
+	private final double pt_k_x = ;
+	private final double pt_k_x = ;
+	private final double pt_l_x = ;
+	private final double pt_l_x = ;
+	private final double pt_m_x = ;
+	private final double pt_m_x = ;
+	private final double pt_n_x = ;
+	private final double pt_n_x = ;
+	private final double pt_o_x = ;
+	private final double pt_o_x = ;
 	
 
 
@@ -33,7 +60,7 @@ public class HangmanCanvas extends GCanvas {
 	public void reset() {
 		// draw scaffold
 		scaffold = new GLine()
-		scaffold = new GLine(, getHeight() * 38 / 50, getWidth() / 2 - BEAM_LENGTH, getHeight() * 38 / 50 - SCAFFOLD_HEIGHT );
+		scaffold = new GLine(pt_a_x, getHeight() * 38 / 50, getWidth() / 2 - BEAM_LENGTH, getHeight() * 38 / 50 - SCAFFOLD_HEIGHT );
 		beam = new GLine(getWidth() / 2 - BEAM_LENGTH);
 		add(scaffold);
 	}

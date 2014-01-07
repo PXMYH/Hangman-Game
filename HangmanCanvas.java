@@ -53,7 +53,7 @@ public class HangmanCanvas extends GCanvas {
 //	private final double pt_d_x = pt_c_x;
 //	private final double pt_d_y = pt_c_y + ROPE_LENGTH;
 
-	private String incorrect_guesses;
+	private String incorrect_guesses = "";
 
 
 /** Resets the display so that only the scaffold appears */

@@ -82,7 +82,6 @@ public class Hangman extends ConsoleProgram {
     		}
     		
     		user_letter = convertCase(user_letter);
-    		println("letter is converted to : " + user_letter);
     		
     		// compare with lexicon word
     		if (isLetterExist(user_letter)) { // letter exists

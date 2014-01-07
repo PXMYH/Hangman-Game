@@ -27,20 +27,13 @@ public class HangmanCanvas extends GCanvas {
 	// define hangman joint points to pinpoint its skeleton
 	private double pt_a_x, pt_a_y;
 	private double pt_b_x, pt_b_y;
-	private double pt_c_x;
-	private double pt_c_y;
-	private double pt_d_x;
-	private double pt_d_y;
-	private double pt_e_x;
-	private double pt_e_y;
-	private double pt_f_x;
-	private double pt_f_y;
-	private double pt_g_x;
-	private double pt_g_y;
-	private double pt_h_x;
-	private double pt_h_y;
-	private double pt_j_x;
-	private double pt_j_y;
+	private double pt_c_x, pt_c_y;
+	private double pt_d_x, pt_d_y;
+	private double pt_e_x, pt_e_y;
+	private double pt_f_x, pt_f_y;
+	private double pt_g_x, pt_g_y;
+	private double pt_h_x, pt_h_y;
+	private double pt_j_x, pt_j_y;
 	private double pt_k_x;
 	private double pt_k_y;
 	private double pt_l_x;

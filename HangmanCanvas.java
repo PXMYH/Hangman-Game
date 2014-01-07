@@ -128,7 +128,7 @@ public class HangmanCanvas extends GCanvas {
 		case 7: break;
 		// draw right foot
 		case 8: break;
-		default: println();
+		default: println("Unacceptable value");
 			
 		
 		}

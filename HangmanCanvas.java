@@ -65,9 +65,9 @@ public class HangmanCanvas extends GCanvas {
 	public void reset() {
 		
 		pt_a_x = getWidth() / 2 - BEAM_LENGTH;
-		double pt_a_y = getHeight() * 38 / 50;
-		double pt_b_x = pt_a_x;
-		double pt_b_y = pt_a_y - SCAFFOLD_HEIGHT;
+		pt_a_y = getHeight() * 38 / 50;
+		pt_b_x = pt_a_x;
+		pt_b_y = pt_a_y - SCAFFOLD_HEIGHT;
 //		double pt_c_x = getWidth() / 2;
 //		double pt_c_y = pt_b_y;
 //		double pt_d_x = pt_c_x;

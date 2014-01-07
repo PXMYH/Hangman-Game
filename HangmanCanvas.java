@@ -34,16 +34,11 @@ public class HangmanCanvas extends GCanvas {
 	private double pt_g_x, pt_g_y;
 	private double pt_h_x, pt_h_y;
 	private double pt_j_x, pt_j_y;
-	private double pt_k_x;
-	private double pt_k_y;
-	private double pt_l_x;
-	private double pt_l_y;
-	private double pt_m_x;
-	private double pt_m_y;
-	private double pt_n_x;
-	private double pt_n_y;
-	private double pt_o_x;
-	private double pt_o_y;
+	private double pt_k_x, pt_k_y;
+	private double pt_l_x, pt_l_y;
+	private double pt_m_x, pt_m_y;
+	private double pt_n_x, pt_n_y;
+	private double pt_o_x, pt_o_y;
 	
 //	private final double pt_a_x = getWidth() / 2 - BEAM_LENGTH;
 //	private final double pt_a_y = getHeight() * 38 / 50;

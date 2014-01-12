@@ -93,6 +93,7 @@ public class HangmanCanvas extends GCanvas {
 		GObject obj = getElementAt(display_word_label_x, display_word_label_y);
 		if (obj != null)
 			remove(obj);
+		
 		display_word = new GLabel (word, display_word_label_x, display_word_label_y);
 		display_word.setFont("SanSerif-20");
 		

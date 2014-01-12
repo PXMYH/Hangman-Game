@@ -113,7 +113,7 @@ public class HangmanCanvas extends GCanvas {
 		double incorrect_guesses_label_y = getHeight() * 45 / 50;
 		//remove(guessed_letters);
 		GObject obj = getElementAt(incorrect_guesses_label_x, incorrect_guesses_label_y);
-		if (obj != null) 
+		if (obj == null) 
 			//remove(obj);
 			removeAll();
 		guessed_letters = new GLabel (incorrect_guesses, incorrect_guesses_label_x, incorrect_guesses_label_y);

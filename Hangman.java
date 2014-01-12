@@ -1,8 +1,12 @@
 /*
  * File: Hangman.java
  * ------------------
- * This program will eventually play the Hangman game from
- * Assignment #4.
+ * Hangman game code
+ * User has 8 chances to guess the hidden word correctly
+ * Everytime user made a incorrect guess, one body part of hangman will appear in scaffold
+ * Once all 8 chances have been used up, hangman appears and game over
+ * 
+ * Hangman: "PLEASE, I DON't WANT TO DIE! SAVE ME! :("
  */
 
 import acm.graphics.*;

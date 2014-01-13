@@ -22,7 +22,7 @@ public class HangmanLexicon {
 			throw new ;
 		}
 		while (true) {
-			rd.readLine();
+			line = rd.readLine();
 			if (rd.readLine() == "") break;
 		}
 		

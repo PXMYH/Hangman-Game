@@ -27,7 +27,7 @@ public class HangmanLexicon {
 				line = rd.readLine();
 				if (line == null) break;
 				
-				// put the line content into array
+				// put the line content into an array list
 				word_list = new ArrayList<String>();
 				word_list.add(line);
 			}

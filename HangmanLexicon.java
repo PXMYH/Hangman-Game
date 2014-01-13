@@ -10,13 +10,17 @@ import java.io.*;
 
 public class HangmanLexicon {
 	
+	// instance variables
+	BufferedReader rd;
+	
+	
 /** Constructor for HangmanLexicon class */ 
 	public HangmanLexicon() {
 		// open HangmanLexicon.txt file and read in content
 		try {
 			BufferedReader rd = new BufferedReader(new FileReader("ShorterLexicon.txt"));
 		} catch (IOException ex) {
-			return;
+			throw new ;
 		}
 		while (true) {
 			

@@ -11,20 +11,27 @@ import java.io.*;
 public class HangmanLexicon {
 	
 /** Constructor for HangmanLexicon class */ 
+	// open HangmanLexicon.txt file and read in content
 	public HangmanLexicon() {
-		// open HangmanLexicon.txt file and read in content
+		
 		BufferedReader rd;
 		String line;
+		
+		// open file
 		try {
 			rd = new BufferedReader(new FileReader("ShorterLexicon.txt"));
 		} catch (IOException ex) {
 			// throw new exception
 			throw new ;
 		}
+		
+		// read in content
 		while (true) {
 			line = rd.readLine();
 			if (line == "") break;
 		}
+		
+		// close file
 		
 	}
 

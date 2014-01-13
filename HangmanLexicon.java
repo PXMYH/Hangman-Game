@@ -20,6 +20,7 @@ public class HangmanLexicon {
 		try {
 			// open file
 			rd = new BufferedReader(new FileReader("ShorterLexicon.txt"));
+			
 			// read in content
 			while (true) {
 				line = rd.readLine();
@@ -32,9 +33,6 @@ public class HangmanLexicon {
 			// throw new exception
 			throw new ErrorException(ex);
 		}
-		
-
-		
 	}
 
 /** Returns the number of words in the lexicon. */

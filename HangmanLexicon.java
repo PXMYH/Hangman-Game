@@ -19,7 +19,7 @@ public class HangmanLexicon {
 		
 		String line;
 		// open file
-		BufferedReader rd = openFile("ShorterLexicon.txt");
+		BufferedReader rd = openFile("HangmanLexicon.txt");
 		word_list = new ArrayList<String>();
 		
 		try {

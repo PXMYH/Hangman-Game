@@ -17,6 +17,7 @@ public class HangmanLexicon {
 		BufferedReader rd = null;
 		String line;
 		
+		while () {
 		try {
 			// open file
 			rd = new BufferedReader(new FileReader("ShorterLexicon.txt"));
@@ -32,6 +33,7 @@ public class HangmanLexicon {
 		} catch (IOException ex) {
 			// throw new exception
 			throw new ErrorException(ex);
+		}
 		}
 	}
 

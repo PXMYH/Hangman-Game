@@ -22,7 +22,7 @@ public class HangmanLexicon {
 			rd = new BufferedReader(new FileReader("ShorterLexicon.txt"));
 		} catch (IOException ex) {
 			// throw new exception
-			throw new ErrorException;
+			throw new ErrorException(ex);
 		}
 		
 		// read in content

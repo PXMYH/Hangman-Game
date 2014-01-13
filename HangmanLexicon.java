@@ -13,7 +13,7 @@ public class HangmanLexicon {
 /** Constructor for HangmanLexicon class */ 
 	public HangmanLexicon() {
 		// open HangmanLexicon.txt file and read in content
-		BufferedReader rd = 
+		BufferedReader rd = BufferedReader();
 		
 	}
 

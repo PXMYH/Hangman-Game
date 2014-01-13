@@ -55,7 +55,7 @@ public class Hangman extends ConsoleProgram {
     	
     	// get a guessing word from the dictionary
     	int high_boundary = hangmanlecxicon.getWordCount();
-    	int word_index = (int) rgen.nextDouble();
+    	int word_index = (int) rgen.nextDouble(0, high_boundary);
     	guess_word = hangmanlecxicon.getWord(word_index);
     	println("guessed word is: " + guess_word);
     	

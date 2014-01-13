@@ -29,7 +29,6 @@ public class HangmanLexicon {
 				
 				// put the line content into array
 				word_list = new ArrayList<String>();
-				
 				word_list.add(line);
 			}
 			// close file

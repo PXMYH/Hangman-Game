@@ -15,12 +15,12 @@ public class HangmanLexicon {
 	public HangmanLexicon() {
 		
 		String line;
-		BufferedReader rd = openFile();
+		BufferedReader rd = openFile("ShorterLexicon.txt");
 		
 		while (true) {
 			try {
 				// open file
-				rd = new BufferedReader(new FileReader("ShorterLexicon.txt"));
+				rd = new BufferedReader(new FileReader(".txt"));
 				
 	
 			} catch (IOException ex) {

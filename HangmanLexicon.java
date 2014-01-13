@@ -14,9 +14,10 @@ public class HangmanLexicon {
 	public HangmanLexicon() {
 		// open HangmanLexicon.txt file and read in content
 		try {
-		BufferedReader rd = new BufferedReader(new FileReader("ShorterLexicon.txt"));
+			BufferedReader rd = new BufferedReader(new FileReader("ShorterLexicon.txt"));
 		} catch (IOException ex) {
-			println();
+			return false;
+			
 		}
 		while (true) {
 			

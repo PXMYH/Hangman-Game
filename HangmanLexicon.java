@@ -17,7 +17,7 @@ public class HangmanLexicon {
 		BufferedReader rd = null;
 		String line;
 		
-		while () {
+		while (rd == null) {
 		try {
 			// open file
 			rd = new BufferedReader(new FileReader("ShorterLexicon.txt"));

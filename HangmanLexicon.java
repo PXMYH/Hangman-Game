@@ -21,7 +21,7 @@ public class HangmanLexicon {
 			throw new ;
 		}
 		while (true) {
-			
+			rd.readLine();
 			if (rd.readLine() == "") break;
 		}
 		

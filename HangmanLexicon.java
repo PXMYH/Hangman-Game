@@ -23,7 +23,7 @@ public class HangmanLexicon {
 		}
 		while (true) {
 			line = rd.readLine();
-			if (rd.readLine() == "") break;
+			if (line == "") break;
 		}
 		
 	}

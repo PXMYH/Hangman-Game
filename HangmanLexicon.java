@@ -16,7 +16,7 @@ public class HangmanLexicon {
 		try {
 			BufferedReader rd = new BufferedReader(new FileReader("ShorterLexicon.txt"));
 		} catch (IOException ex) {
-			return false;
+			return;
 			
 		}
 		while (true) {

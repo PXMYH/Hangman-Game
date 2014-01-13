@@ -39,7 +39,21 @@ public class HangmanLexicon {
 			}
 	}
 	
-	private openFile(String file_name) {
+	private BufferedReader openFile(String file_name) {
+		BufferedReader rd = null;
+		
+		while (rd == null) {
+			try {
+				// open file
+				rd = new BufferedReader(new FileReader(file_name));
+				
+	
+			} catch (IOException ex) {
+				// throw new exception
+				throw new ErrorException(ex);
+			}
+		}
+		return rd;
 		
 	}
 	

@@ -10,10 +10,6 @@ import java.io.*;
 
 public class HangmanLexicon {
 	
-	// instance variables
-	
-	
-	
 /** Constructor for HangmanLexicon class */ 
 	public HangmanLexicon() {
 		// open HangmanLexicon.txt file and read in content

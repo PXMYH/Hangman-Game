@@ -38,6 +38,11 @@ public class HangmanLexicon {
 			rd.close();
 			}
 	}
+	
+	private openFile(String file_name) {
+		
+	}
+	
 
 /** Returns the number of words in the lexicon. */
 	public int getWordCount() {

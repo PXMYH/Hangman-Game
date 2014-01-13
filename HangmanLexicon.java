@@ -14,10 +14,9 @@ public class HangmanLexicon {
 	// open HangmanLexicon.txt file and read in content and put the content into an array list
 	public HangmanLexicon() {
 		
-		BufferedReader rd = null;
 		String line;
 		
-		while (rd == null) {
+		while (true) {
 			try {
 				// open file
 				rd = new BufferedReader(new FileReader("ShorterLexicon.txt"));

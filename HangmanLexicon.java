@@ -37,6 +37,7 @@ public class HangmanLexicon {
 		
 		// close file
 		rd.close();
+		}
 	}
 
 /** Returns the number of words in the lexicon. */

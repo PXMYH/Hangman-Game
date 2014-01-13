@@ -30,7 +30,6 @@ public class HangmanLexicon {
 				if (line == null) break;
 				
 				// put the line content into an array list
-				
 				word_list.add(line);
 				out.println("*** word added is: " + line);
 			}

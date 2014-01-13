@@ -18,23 +18,25 @@ public class HangmanLexicon {
 		String line;
 		
 		while (rd == null) {
-		try {
-			// open file
-			rd = new BufferedReader(new FileReader("ShorterLexicon.txt"));
-			
-			// read in content
-			while (true) {
-				line = rd.readLine();
-				if (line == "") break;
+			try {
+				// open file
+				rd = new BufferedReader(new FileReader("ShorterLexicon.txt"));
+				
+	
+			} catch (IOException ex) {
+				// throw new exception
+				throw new ErrorException(ex);
 			}
-			
-			// close file
-			rd.close();
-		} catch (IOException ex) {
-			// throw new exception
-			throw new ErrorException(ex);
+		
+		
+		// read in content
+		while (true) {
+			line = rd.readLine();
+			if (line == "") break;
 		}
-		}
+		
+		// close file
+		rd.close();
 	}
 
 /** Returns the number of words in the lexicon. */

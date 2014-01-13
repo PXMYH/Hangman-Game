@@ -36,8 +36,6 @@ public class HangmanLexicon {
 			// throw new exception
 			throw new ErrorException(ex);
 		}
-	
-
 	}
 	
 	private BufferedReader openFile(String file_name) {

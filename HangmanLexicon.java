@@ -11,7 +11,7 @@ import java.io.*;
 public class HangmanLexicon {
 
 /** Constructor for HangmanLexicon class */ 
-	// open HangmanLexicon.txt file and read in content
+	// open HangmanLexicon.txt file and read in content and put the content into an array list
 	public HangmanLexicon() {
 		
 		BufferedReader rd;

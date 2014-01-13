@@ -13,7 +13,9 @@ public class HangmanLexicon {
 /** Constructor for HangmanLexicon class */ 
 	public HangmanLexicon() {
 		// open HangmanLexicon.txt file and read in content
+		try {
 		BufferedReader rd = new BufferedReader(new FileReader("ShorterLexicon.txt"));
+		} catch (IOException ex)
 		while (true) {
 			
 			if (rd.readLine() == "") break;

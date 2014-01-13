@@ -21,6 +21,7 @@ public class HangmanLexicon {
 		String line;
 		// open file
 		BufferedReader rd = openFile("ShorterLexicon.txt");
+		word_list = new ArrayList<String>();
 		
 		try {
 			// read in content
@@ -29,7 +30,7 @@ public class HangmanLexicon {
 				if (line == null) break;
 				
 				// put the line content into an array list
-				word_list = new ArrayList<String>();
+				
 				word_list.add(line);
 				out.println("*** word added is: " + line);
 			}

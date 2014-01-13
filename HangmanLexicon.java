@@ -31,7 +31,6 @@ public class HangmanLexicon {
 				
 				// put the line content into an array list
 				word_list.add(line);
-				out.println("*** word added is: " + line);
 			}
 			// close file
 			rd.close();

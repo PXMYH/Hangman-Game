@@ -19,14 +19,13 @@ public class HangmanLexicon {
 		BufferedReader rd = openFile("ShorterLexicon.txt");
 		
 		try {
+			// read in content
 			while (true) {
-				// read in content
-				while (true) {
-					line = rd.readLine();
-					if (line == null) break;
-					
-					// put the line content into array
-				}
+				line = rd.readLine();
+				if (line == null) break;
+				
+				// put the line content into array
+			}
 				
 
 		} catch (IOException ex) {

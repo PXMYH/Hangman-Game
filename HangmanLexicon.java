@@ -15,28 +15,29 @@ public class HangmanLexicon {
 	public HangmanLexicon() {
 		
 		String line;
+		// open file
 		BufferedReader rd = openFile("ShorterLexicon.txt");
 		
-		while (true) {
-			try {
-				// open file
-				rd = new BufferedReader(new FileReader(".txt"));
-				
-	
-			} catch (IOException ex) {
-				// throw new exception
-				throw new ErrorException(ex);
-			}
-		
-			// read in content
+		try {
 			while (true) {
-				line = rd.readLine();
-				if (line == "") break;
-			}
+			// open file
+			rd = new BufferedReader(new FileReader(".txt"));
 			
-			// close file
-			rd.close();
-			}
+
+		} catch (IOException ex) {
+			// throw new exception
+			throw new ErrorException(ex);
+		}
+	
+		// read in content
+		while (true) {
+			line = rd.readLine();
+			if (line == "") break;
+		}
+		
+		// close file
+		rd.close();
+		}
 	}
 	
 	private BufferedReader openFile(String file_name) {

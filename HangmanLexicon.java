@@ -32,6 +32,7 @@ public class HangmanLexicon {
 		}
 		
 		// close file
+		rd.close();
 		
 	}
 

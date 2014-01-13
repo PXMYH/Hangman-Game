@@ -15,6 +15,7 @@ public class HangmanLexicon {
 	public HangmanLexicon() {
 		
 		String line;
+		BufferedReader rd = openFile();
 		
 		while (true) {
 			try {

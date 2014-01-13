@@ -31,8 +31,6 @@ public class HangmanLexicon {
 				word_list = new ArrayList<String>();
 				
 				word_list.add(line);
-				
-				
 			}
 			// close file
 			rd.close();

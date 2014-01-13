@@ -24,6 +24,8 @@ public class HangmanLexicon {
 				while (true) {
 					line = rd.readLine();
 					if (line == null) break;
+					
+					// put the line content into array
 				}
 				
 

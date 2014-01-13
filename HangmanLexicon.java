@@ -46,8 +46,6 @@ public class HangmanLexicon {
 			try {
 				// open file
 				rd = new BufferedReader(new FileReader(file_name));
-				
-	
 			} catch (IOException ex) {
 				// throw new exception
 				throw new ErrorException(ex);

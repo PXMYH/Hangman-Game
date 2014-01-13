@@ -28,16 +28,15 @@ public class HangmanLexicon {
 				throw new ErrorException(ex);
 			}
 		
-		
-		// read in content
-		while (true) {
-			line = rd.readLine();
-			if (line == "") break;
-		}
-		
-		// close file
-		rd.close();
-		}
+			// read in content
+			while (true) {
+				line = rd.readLine();
+				if (line == "") break;
+			}
+			
+			// close file
+			rd.close();
+			}
 	}
 
 /** Returns the number of words in the lexicon. */

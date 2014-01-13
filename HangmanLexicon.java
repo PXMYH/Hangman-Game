@@ -28,7 +28,7 @@ public class HangmanLexicon {
 				if (line == null) break;
 				
 				// put the line content into array
-				
+				word_list = new ArrayList<String>();
 				
 				
 			}

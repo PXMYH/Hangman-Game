@@ -9,8 +9,6 @@ import acm.util.*;
 import java.io.*;
 
 public class HangmanLexicon {
-	
-
 
 /** Constructor for HangmanLexicon class */ 
 	// open HangmanLexicon.txt file and read in content

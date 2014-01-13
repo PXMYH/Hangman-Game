@@ -67,7 +67,7 @@ public class HangmanLexicon {
 		
 		
 		
-		/** original snippet*/		
+		/** original code snippet*/		
 //		switch (index) {
 //			case 0: return "BUOY";
 //			case 1: return "COMPUTER";

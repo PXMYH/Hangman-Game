@@ -11,7 +11,7 @@ import java.util.*;
 
 public class HangmanLexicon {
 	
-	private ArrayList<String> wordList;
+	private ArrayList<String> word_list;
 
 /** Constructor for HangmanLexicon class */ 
 	// open HangmanLexicon.txt file and read in content and put the content into an array list

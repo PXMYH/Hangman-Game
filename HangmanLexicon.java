@@ -20,20 +20,18 @@ public class HangmanLexicon {
 		
 		try {
 			while (true) {
-			// open file
-			rd = new BufferedReader(new FileReader(".txt"));
-			
+				// read in content
+				while (true) {
+					line = rd.readLine();
+					if (line == null) break;
+				}
+				
 
 		} catch (IOException ex) {
 			// throw new exception
 			throw new ErrorException(ex);
 		}
 	
-		// read in content
-		while (true) {
-			line = rd.readLine();
-			if (line == "") break;
-		}
 		
 		// close file
 		rd.close();
